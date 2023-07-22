@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+<head>    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <style>
         body{
-            background-color: black;
+            height: 100vh;
+           /* background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
-            background-position: center top;
-            background-repeat: no-repeat;
-            border-radius: 10px;
+            background-position: center center;
+            background-repeat: repeat;
             background-size: cover;
+            background-attachment: fixed;*/
 
+            /* shorthand- background 
+              color > image > position > repet > [size] > atachment
+               
+              [o size não está funcionando na shorthand ainda ]*/
+            
+            background: black url("imagens/wallpaper002.jpg" )center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
+            border-radius: 10px;
            
         }
     </style>
@@ -29,6 +37,15 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi perferendis neque iste? Ea vero dolorum pariatur facere voluptas odio accusamus commodi, consectetur soluta beatae nobis vitae aut architecto quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa, alias eaque labore dignissimos veritatis magni quis eius. Non maxime illum repellendus autem ullam alias beatae facilis, minima ipsum illo.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo inventore est sunt itaque quos exercitationem provident beatae ex sed id eligendi repellat praesentium explicabo consequatur eveniet, cum numquam molestiae. Ipsa!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi perferendis neque iste? Ea vero dolorum pariatur facere voluptas odio accusamus commodi, consectetur soluta beatae nobis vitae aut architecto quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa, alias eaque labore dignissimos veritatis magni quis eius. Non maxime illum repellendus autem ullam alias beatae facilis, minima ipsum illo.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo inventore est sunt itaque quos exercitationem provident beatae ex sed id eligendi repellat praesentium explicabo consequatur eveniet, cum numquam molestiae. Ipsa!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi perferendis neque iste? Ea vero dolorum pariatur facere voluptas odio accusamus commodi, consectetur soluta beatae nobis vitae aut architecto quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa, alias eaque labore dignissimos veritatis magni quis eius. Non maxime illum repellendus autem ullam alias beatae facilis, minima ipsum illo.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo inventore est sunt itaque quos exercitationem provident beatae ex sed id eligendi repellat praesentium explicabo consequatur eveniet, cum numquam molestiae. Ipsa!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi perferendis neque iste? Ea vero dolorum pariatur facere voluptas odio accusamus commodi, consectetur soluta beatae nobis vitae aut architecto quibusdam.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa, alias eaque labore dignissimos veritatis magni quis eius. Non maxime illum repellendus autem ullam alias beatae facilis, minima ipsum illo.
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo inventore est sunt itaque quos exercitationem provident beatae ex sed id eligendi repellat praesentium explicabo consequatur eveniet, cum numquam molestiae. Ipsa!
         </p>
