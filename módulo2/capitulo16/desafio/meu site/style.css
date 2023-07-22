@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"android";
+    src:url(../pacote-projeto-d010/fontes/idroid.otf)
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(176, 241, 176),rgb(6, 105, 6) );
+   color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    header h1 {
+        font-family: android;
+        text-shadow: 0px 5px rgba(0, 0, 0, 0.274);
+       }
+    
+   body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+   }
+   body h1 {
+    font-family: android;
+   }
+   
+   ul > div > a:hover {
+    background-color: lawngreen;
+    color: black;
+   
+   }
+
+div{
+    text-decoration: none;
+   
+   
+    display: inline-block;
+    color: white;
+}
+clas{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul {
+    columns: 2;
+}
+h3{
+   padding-left: 10px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    height:40px;
+    background-color: rgb(87, 143, 101);
+}
+aside{
+    max-width: 750px;
+    height: 430px;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(128, 201, 214);
+}
+aside > h3{
+    text-align: center;
+}
+aside > p{
+    margin: 10px;
+}
+footer {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 0%;
+}
+

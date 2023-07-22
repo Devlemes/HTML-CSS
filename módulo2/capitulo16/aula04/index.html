@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: bisque;
+        margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding:10px ;
+            margin: 10px;
+        }
+        nav{
+            box-shadow:3px 3px 3px rgb(126, 118, 118) ;
+            background-color: lightgrey;
+            padding: 3px;
+        }
+        h1{
+            box-shadow: inset 3px 3px 3px rgb(165, 152, 152);
+        }
+        nav > a {
+           text-decoration: none;
+           color: white;
+           font-weight: bold;
+           margin-right: 30px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            border-radius:20px ;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+          background-color: rgb(202, 176, 176);
+          padding: 5px;
+          
+
+        }
+        footer{
+            background-color:black ;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: opx;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(0, 0, 0);
+            margin: 10px;
+            border-radius: 50%;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        
+    </header>
+    <main>
+        <article>
+        <section id="assuntos"><h2>Esporte política e tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti autem in, obcaecati reprehenderit consectetur error est culpa perferendis eos vitae earum illo libero cumque aperiam impedit eum assumenda modi.</p></section>
+        <section id="noticias"> 
+            <h2>Notícias do Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga praesentium ut magni quidem iusto nisi amet ducimus nostrum molestiae consectetur omnis consequatur, quo sed mollitia esse perferendis minus sit provident.</p></section>
+            <aside>
+                <p>Artigo escrito por José</p>
+            </aside>
+        </article>
+        </main>
+     <footer>
+        <p>Desenvolvido pelo cursoemvideo</p>
+     </footer>
+     <div id="bola"></div>
+</body>
+</html>
