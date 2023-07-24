@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+header{
+    padding-top: 50px;
+    background-color: black;
+    height: 180px;
+    margin: -10px;
+    
+}
+
+header  h1{
+    color: white;
+    text-align: center;
+    font-family:"Passion One" cursive;
+    font-size:60px  ;
+    font: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet"> ;
+}
+ 
+header > p{
+    text-align: center;
+    color: white;
+}
+
+header p a{
+    text-decoration: none;
+    color: white;
+}
+
+header p a:hover{
+    text-decoration: underline;
+    
+}
